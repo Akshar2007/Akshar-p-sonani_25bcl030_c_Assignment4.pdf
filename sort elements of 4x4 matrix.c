@@ -8,12 +8,12 @@ int main() {
         for(j=0; j<4; j++)
             scanf("%d", &a[i][j]);
 
-    // Convert 2D to 1D
+    
     for(i=0; i<4; i++)
         for(j=0; j<4; j++)
             b[k++] = a[i][j];
 
-    // Sort the array
+    
     for(i=0; i<16; i++) {
         for(j=i+1; j<16; j++) {
             if(b[i] > b[j]) {
